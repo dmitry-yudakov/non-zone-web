@@ -2,20 +2,18 @@
 
 Non-Zone is the global map for experiential and solo-travelers. "Pin" a new location, or discover a new "magic" place. Anywhere, at any time.
 
-# Installation
+# Installation & deploy
 
 Clone the project.
 
 ```
 cd non-zone-web/
-cp env.sample .env
+yarn deploy
 ```
-
-Edit if needed.
 
 ---
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Development
 
 ## Available Scripts
 
@@ -42,4 +40,4 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
