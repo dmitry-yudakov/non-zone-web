@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 
 const embedUrl = process.env.REACT_APP_OCM_EMBED_URL
 
 const Splash = () => {
   return <div className="Splash-header">
-    <img src={logo} className="Splash-logo" alt="logo" />
+    {/* <img src={logo} className="Splash-logo" alt="logo" /> */}
     <p>
-      Non-zone loading...
- </p>
+      Non-zone
+    </p>
   </div>
 }
 
@@ -25,7 +25,8 @@ function App() {
 
   return (
     <div className="App">
-      {loading ? <Splash /> : <Map />}
+      {loading && <Splash />}
+      <Map />
     </div>
   );
 }
